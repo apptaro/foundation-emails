@@ -73,10 +73,10 @@ table, tr, td {
 @media only screen {
   html {
     min-height: 100%;
-    background: #f3f3f3; } }
+    background: #fefefe; } }
 
 table.body {
-  background: #f3f3f3;
+  background: #fefefe;
   height: 100%;
   width: 100%; }
 
@@ -132,7 +132,7 @@ td.columns.last,
 td.column.last,
 th.columns.last,
 th.column.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 td.columns table:not(.button),
 td.column table:not(.button),
@@ -142,17 +142,17 @@ th.column table:not(.button) {
 
 td.large-1,
 th.large-1 {
-  width: 36.5px;
+  width: 37.83333px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-1.first,
 th.large-1.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-1.last,
 th.large-1.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-1,
 .collapse > tbody > tr > th.large-1 {
@@ -160,15 +160,9 @@ th.large-1.last {
   padding-left: 0;
   width: 52.5px; }
 
-.collapse td.large-1.first,
-.collapse th.large-1.first,
-.collapse td.large-1.last,
-.collapse th.large-1.last {
-  width: 60.5px; }
-
 td.large-1 center,
 th.large-1 center {
-  min-width: 4.5px; }
+  min-width: 37.83333px; }
 
 .body .columns td.large-1,
 .body .column td.large-1,
@@ -178,17 +172,17 @@ th.large-1 center {
 
 td.large-2,
 th.large-2 {
-  width: 89px;
+  width: 91.66667px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-2.first,
 th.large-2.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-2.last,
 th.large-2.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-2,
 .collapse > tbody > tr > th.large-2 {
@@ -196,15 +190,9 @@ th.large-2.last {
   padding-left: 0;
   width: 105px; }
 
-.collapse td.large-2.first,
-.collapse th.large-2.first,
-.collapse td.large-2.last,
-.collapse th.large-2.last {
-  width: 113px; }
-
 td.large-2 center,
 th.large-2 center {
-  min-width: 57px; }
+  min-width: 91.66667px; }
 
 .body .columns td.large-2,
 .body .column td.large-2,
@@ -214,17 +202,17 @@ th.large-2 center {
 
 td.large-3,
 th.large-3 {
-  width: 141.5px;
+  width: 145.5px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-3.first,
 th.large-3.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-3.last,
 th.large-3.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-3,
 .collapse > tbody > tr > th.large-3 {
@@ -232,15 +220,9 @@ th.large-3.last {
   padding-left: 0;
   width: 157.5px; }
 
-.collapse td.large-3.first,
-.collapse th.large-3.first,
-.collapse td.large-3.last,
-.collapse th.large-3.last {
-  width: 165.5px; }
-
 td.large-3 center,
 th.large-3 center {
-  min-width: 109.5px; }
+  min-width: 145.5px; }
 
 .body .columns td.large-3,
 .body .column td.large-3,
@@ -250,17 +232,17 @@ th.large-3 center {
 
 td.large-4,
 th.large-4 {
-  width: 194px;
+  width: 199.33333px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-4.first,
 th.large-4.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-4.last,
 th.large-4.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-4,
 .collapse > tbody > tr > th.large-4 {
@@ -268,15 +250,9 @@ th.large-4.last {
   padding-left: 0;
   width: 210px; }
 
-.collapse td.large-4.first,
-.collapse th.large-4.first,
-.collapse td.large-4.last,
-.collapse th.large-4.last {
-  width: 218px; }
-
 td.large-4 center,
 th.large-4 center {
-  min-width: 162px; }
+  min-width: 199.33333px; }
 
 .body .columns td.large-4,
 .body .column td.large-4,
@@ -286,17 +262,17 @@ th.large-4 center {
 
 td.large-5,
 th.large-5 {
-  width: 246.5px;
+  width: 253.16667px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-5.first,
 th.large-5.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-5.last,
 th.large-5.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-5,
 .collapse > tbody > tr > th.large-5 {
@@ -304,15 +280,9 @@ th.large-5.last {
   padding-left: 0;
   width: 262.5px; }
 
-.collapse td.large-5.first,
-.collapse th.large-5.first,
-.collapse td.large-5.last,
-.collapse th.large-5.last {
-  width: 270.5px; }
-
 td.large-5 center,
 th.large-5 center {
-  min-width: 214.5px; }
+  min-width: 253.16667px; }
 
 .body .columns td.large-5,
 .body .column td.large-5,
@@ -322,17 +292,17 @@ th.large-5 center {
 
 td.large-6,
 th.large-6 {
-  width: 299px;
+  width: 307px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-6.first,
 th.large-6.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-6.last,
 th.large-6.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-6,
 .collapse > tbody > tr > th.large-6 {
@@ -340,15 +310,9 @@ th.large-6.last {
   padding-left: 0;
   width: 315px; }
 
-.collapse td.large-6.first,
-.collapse th.large-6.first,
-.collapse td.large-6.last,
-.collapse th.large-6.last {
-  width: 323px; }
-
 td.large-6 center,
 th.large-6 center {
-  min-width: 267px; }
+  min-width: 307px; }
 
 .body .columns td.large-6,
 .body .column td.large-6,
@@ -358,17 +322,17 @@ th.large-6 center {
 
 td.large-7,
 th.large-7 {
-  width: 351.5px;
+  width: 360.83333px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-7.first,
 th.large-7.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-7.last,
 th.large-7.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-7,
 .collapse > tbody > tr > th.large-7 {
@@ -376,15 +340,9 @@ th.large-7.last {
   padding-left: 0;
   width: 367.5px; }
 
-.collapse td.large-7.first,
-.collapse th.large-7.first,
-.collapse td.large-7.last,
-.collapse th.large-7.last {
-  width: 375.5px; }
-
 td.large-7 center,
 th.large-7 center {
-  min-width: 319.5px; }
+  min-width: 360.83333px; }
 
 .body .columns td.large-7,
 .body .column td.large-7,
@@ -394,17 +352,17 @@ th.large-7 center {
 
 td.large-8,
 th.large-8 {
-  width: 404px;
+  width: 414.66667px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-8.first,
 th.large-8.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-8.last,
 th.large-8.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-8,
 .collapse > tbody > tr > th.large-8 {
@@ -412,15 +370,9 @@ th.large-8.last {
   padding-left: 0;
   width: 420px; }
 
-.collapse td.large-8.first,
-.collapse th.large-8.first,
-.collapse td.large-8.last,
-.collapse th.large-8.last {
-  width: 428px; }
-
 td.large-8 center,
 th.large-8 center {
-  min-width: 372px; }
+  min-width: 414.66667px; }
 
 .body .columns td.large-8,
 .body .column td.large-8,
@@ -430,17 +382,17 @@ th.large-8 center {
 
 td.large-9,
 th.large-9 {
-  width: 456.5px;
+  width: 468.5px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-9.first,
 th.large-9.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-9.last,
 th.large-9.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-9,
 .collapse > tbody > tr > th.large-9 {
@@ -448,15 +400,9 @@ th.large-9.last {
   padding-left: 0;
   width: 472.5px; }
 
-.collapse td.large-9.first,
-.collapse th.large-9.first,
-.collapse td.large-9.last,
-.collapse th.large-9.last {
-  width: 480.5px; }
-
 td.large-9 center,
 th.large-9 center {
-  min-width: 424.5px; }
+  min-width: 468.5px; }
 
 .body .columns td.large-9,
 .body .column td.large-9,
@@ -466,17 +412,17 @@ th.large-9 center {
 
 td.large-10,
 th.large-10 {
-  width: 509px;
+  width: 522.33333px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-10.first,
 th.large-10.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-10.last,
 th.large-10.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-10,
 .collapse > tbody > tr > th.large-10 {
@@ -484,15 +430,9 @@ th.large-10.last {
   padding-left: 0;
   width: 525px; }
 
-.collapse td.large-10.first,
-.collapse th.large-10.first,
-.collapse td.large-10.last,
-.collapse th.large-10.last {
-  width: 533px; }
-
 td.large-10 center,
 th.large-10 center {
-  min-width: 477px; }
+  min-width: 522.33333px; }
 
 .body .columns td.large-10,
 .body .column td.large-10,
@@ -502,17 +442,17 @@ th.large-10 center {
 
 td.large-11,
 th.large-11 {
-  width: 561.5px;
+  width: 576.16667px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-11.first,
 th.large-11.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-11.last,
 th.large-11.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-11,
 .collapse > tbody > tr > th.large-11 {
@@ -520,15 +460,9 @@ th.large-11.last {
   padding-left: 0;
   width: 577.5px; }
 
-.collapse td.large-11.first,
-.collapse th.large-11.first,
-.collapse td.large-11.last,
-.collapse th.large-11.last {
-  width: 585.5px; }
-
 td.large-11 center,
 th.large-11 center {
-  min-width: 529.5px; }
+  min-width: 576.16667px; }
 
 .body .columns td.large-11,
 .body .column td.large-11,
@@ -538,17 +472,17 @@ th.large-11 center {
 
 td.large-12,
 th.large-12 {
-  width: 614px;
+  width: 630px;
   padding-left: 8px;
   padding-right: 8px; }
 
 td.large-12.first,
 th.large-12.first {
-  padding-left: 16px; }
+  padding-left: 0px; }
 
 td.large-12.last,
 th.large-12.last {
-  padding-right: 16px; }
+  padding-right: 0px; }
 
 .collapse > tbody > tr > td.large-12,
 .collapse > tbody > tr > th.large-12 {
@@ -556,15 +490,9 @@ th.large-12.last {
   padding-left: 0;
   width: 630px; }
 
-.collapse td.large-12.first,
-.collapse th.large-12.first,
-.collapse td.large-12.last,
-.collapse th.large-12.last {
-  width: 638px; }
-
 td.large-12 center,
 th.large-12 center {
-  min-width: 582px; }
+  min-width: 630px; }
 
 .body .columns td.large-12,
 .body .column td.large-12,
@@ -578,7 +506,7 @@ td.large-offset-1.last,
 th.large-offset-1,
 th.large-offset-1.first,
 th.large-offset-1.last {
-  padding-left: 68.5px; }
+  padding-left: 69.83333px; }
 
 td.large-offset-2,
 td.large-offset-2.first,
@@ -586,7 +514,7 @@ td.large-offset-2.last,
 th.large-offset-2,
 th.large-offset-2.first,
 th.large-offset-2.last {
-  padding-left: 121px; }
+  padding-left: 123.66667px; }
 
 td.large-offset-3,
 td.large-offset-3.first,
@@ -594,7 +522,7 @@ td.large-offset-3.last,
 th.large-offset-3,
 th.large-offset-3.first,
 th.large-offset-3.last {
-  padding-left: 173.5px; }
+  padding-left: 177.5px; }
 
 td.large-offset-4,
 td.large-offset-4.first,
@@ -602,7 +530,7 @@ td.large-offset-4.last,
 th.large-offset-4,
 th.large-offset-4.first,
 th.large-offset-4.last {
-  padding-left: 226px; }
+  padding-left: 231.33333px; }
 
 td.large-offset-5,
 td.large-offset-5.first,
@@ -610,7 +538,7 @@ td.large-offset-5.last,
 th.large-offset-5,
 th.large-offset-5.first,
 th.large-offset-5.last {
-  padding-left: 278.5px; }
+  padding-left: 285.16667px; }
 
 td.large-offset-6,
 td.large-offset-6.first,
@@ -618,7 +546,7 @@ td.large-offset-6.last,
 th.large-offset-6,
 th.large-offset-6.first,
 th.large-offset-6.last {
-  padding-left: 331px; }
+  padding-left: 339px; }
 
 td.large-offset-7,
 td.large-offset-7.first,
@@ -626,7 +554,7 @@ td.large-offset-7.last,
 th.large-offset-7,
 th.large-offset-7.first,
 th.large-offset-7.last {
-  padding-left: 383.5px; }
+  padding-left: 392.83333px; }
 
 td.large-offset-8,
 td.large-offset-8.first,
@@ -634,7 +562,7 @@ td.large-offset-8.last,
 th.large-offset-8,
 th.large-offset-8.first,
 th.large-offset-8.last {
-  padding-left: 436px; }
+  padding-left: 446.66667px; }
 
 td.large-offset-9,
 td.large-offset-9.first,
@@ -642,7 +570,7 @@ td.large-offset-9.last,
 th.large-offset-9,
 th.large-offset-9.first,
 th.large-offset-9.last {
-  padding-left: 488.5px; }
+  padding-left: 500.5px; }
 
 td.large-offset-10,
 td.large-offset-10.first,
@@ -650,7 +578,7 @@ td.large-offset-10.last,
 th.large-offset-10,
 th.large-offset-10.first,
 th.large-offset-10.last {
-  padding-left: 541px; }
+  padding-left: 554.33333px; }
 
 td.large-offset-11,
 td.large-offset-11.first,
@@ -658,7 +586,7 @@ td.large-offset-11.last,
 th.large-offset-11,
 th.large-offset-11.first,
 th.large-offset-11.last {
-  padding-left: 593.5px; }
+  padding-left: 608.16667px; }
 
 td.expander,
 th.expander {
@@ -895,14 +823,14 @@ small {
   color: #cacaca; }
 
 a {
-  color: #2199e8;
-  text-decoration: none; }
+  color: #7b2b36;
+  text-decoration: underline; }
   a:hover {
-    color: #147dc2; }
+    color: #551e25; }
   a:active {
-    color: #147dc2; }
+    color: #551e25; }
   a:visited {
-    color: #2199e8; }
+    color: #7b2b36; }
 
 h1 a,
 h1 a:visited,
@@ -916,7 +844,7 @@ h5 a,
 h5 a:visited,
 h6 a,
 h6 a:visited {
-  color: #2199e8; }
+  color: #7b2b36; }
 
 pre {
   background: #f3f3f3;
@@ -956,7 +884,7 @@ span.preheader {
   visibility: hidden;
   mso-hide: all !important;
   font-size: 1px;
-  color: #f3f3f3;
+  color: #fefefe;
   line-height: 1px;
   max-height: 0px;
   max-width: 0px;
@@ -970,8 +898,8 @@ table.button {
   table.button table td {
     text-align: left;
     color: #fefefe;
-    background: #2199e8;
-    border: 2px solid #2199e8; }
+    background: #7b2b36;
+    border: 2px solid #7b2b36; }
     table.button table td a {
       font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif;
       font-size: 16px;
@@ -980,7 +908,7 @@ table.button {
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #2199e8;
+      border: 0 solid #7b2b36;
       border-radius: 3px; }
   table.button.radius table td {
     border-radius: 3px;
@@ -1039,13 +967,13 @@ table.button.expanded {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
+  background: #551e25;
   color: #fefefe; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #147dc2; }
+  border: 0 solid #551e25; }
 
 table.button.secondary table td {
   background: #777777;
@@ -1121,7 +1049,7 @@ th.callout-inner {
   padding: 10px;
   background: #fefefe; }
   th.callout-inner.primary {
-    background: #def0fc;
+    background: #f2d9dc;
     border: 1px solid #444444;
     color: #0a0a0a; }
   th.callout-inner.secondary {
@@ -1151,7 +1079,7 @@ th.callout-inner {
   border-radius: 3px;
   margin-bottom: 16px; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(123, 43, 54, 0.5); }
 
 table.menu {
   width: 630px; }
@@ -1161,7 +1089,7 @@ table.menu {
     padding-right: 10px; }
     table.menu td.menu-item a,
     table.menu th.menu-item a {
-      color: #2199e8; }
+      color: #7b2b36; }
 
 table.menu.vertical td.menu-item,
 table.menu.vertical th.menu-item {

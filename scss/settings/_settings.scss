@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #7b2b36;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -30,7 +30,7 @@ $pre-color: #ff6908;
 $global-width: 630px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: $light-gray;
+$body-background: $white;
 $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
@@ -42,6 +42,7 @@ $global-breakpoint: $global-width + $global-gutter;
 // -------
 
 $grid-column-count: 12;
+$grid-edge-padding: 0px;
 $column-padding-bottom: $global-padding;
 $container-radius: 0;
 
@@ -84,7 +85,7 @@ $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
 $hr-border: 1px solid $black;
 $hr-margin: 20px auto;
-$anchor-text-decoration: none;
+$anchor-text-decoration: underline;
 $anchor-color: $primary-color;
 $anchor-color-visited: $anchor-color;
 $anchor-color-hover: darken($primary-color, 10%);
