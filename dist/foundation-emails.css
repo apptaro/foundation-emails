@@ -706,7 +706,7 @@ th.float-center {
   text-align: center; }
 
 .hide-for-large {
-  display: none !important;
+  display: none;
   mso-hide: all;
   overflow: hidden;
   max-height: 0;
