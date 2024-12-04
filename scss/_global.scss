@@ -8,7 +8,7 @@
 
 /// Primary color for interactive components like links and buttons.
 /// @type Color
-$primary-color: #2199e8 !default;
+$primary-color: #7b2b36 !default;
 
 /// Secondary color, used with components that support the `.secondary` class.
 /// @type Color
@@ -25,6 +25,10 @@ $warning-color: #ffae00 !default;
 /// Color to indicate a negative status or action, used with the `.alert` class.
 /// @type Color
 $alert-color: #ec5840 !default;
+
+/// Color to indicate a call to action, used with the `.cta` class.
+/// @type Color
+$cta-color: #e08023 !default;
 
 /// Color used for light gray UI items within Foundation.
 /// @type Color
@@ -52,7 +56,7 @@ $pre-color: #ff6908 !default;
 
 /// Width of the container.
 /// @type Number
-$global-width: 580px !default;
+$global-width: 630px !default;
 
 /// Width of the container on small screens.
 /// @type Length
@@ -66,9 +70,13 @@ $global-gutter: 16px !default;
 /// @type length
 $global-gutter-small: $global-gutter !default;
 
+/// Default width of padding for grid away from the edge of the container
+/// @type Number
+$grid-edge-padding: 0px !default;
+
 /// Body background color.
 /// @type Length
-$body-background: $light-gray !default;
+$body-background: $white !default;
 
 /// Color for the container background
 /// @type Color

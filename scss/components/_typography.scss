@@ -13,7 +13,7 @@ $global-font-color: $black !default;
 
 /// Global font family.
 /// @type Font
-$body-font-family: Helvetica, Arial, sans-serif !default;
+$body-font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, Verdana, sans-serif !default;
 
 /// Global font weight.
 /// @type Keyword
@@ -25,11 +25,11 @@ $header-color: inherit !default;
 
 /// Global line height.
 /// @type Number
-$global-line-height: 130% !default;
+$global-line-height: 1.8 !default;
 
 /// Font size of body text.
 /// @type Number
-$global-font-size: 16px !default;
+$global-font-size: 14.3px !default;
 
 /// Line height of body text.
 /// @type Number
@@ -41,7 +41,7 @@ $header-font-family: $body-font-family !default;
 
 /// Font family of headings.
 /// @type List
-$header-font-weight: $global-font-weight !default;
+$header-font-weight: bold !default;
 
 /// Font size of `<h1>` elements.
 /// @type Number
@@ -137,7 +137,7 @@ $hr-align: center !default;
 
 /// Text decoration for anchors.
 /// @type Keyword
-$anchor-text-decoration: none !default;
+$anchor-text-decoration: underline !default;
 
 /// Text color of anchors.
 /// @type Color

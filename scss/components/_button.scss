@@ -116,7 +116,6 @@ table.button.large table tr td a:visited {
 
 table.button.tiny {
   table {
-    td,
     a {
       padding: map-get($button-padding, tiny);
     }
@@ -130,7 +129,6 @@ table.button.tiny {
 
 table.button.small {
   table {
-    td,
     a {
       padding: map-get($button-padding, small);
       font-size: map-get($button-font-size, small);
@@ -311,6 +309,31 @@ table.button.warning:hover {
 
     a {
       border: 0px solid darken($warning-color, 10%);
+    }
+  }
+}
+
+table.button.cta {
+  table {
+    td {
+      background: $cta-color;
+      border: 0px solid $cta-color;
+    }
+
+    a {
+      border: 0 solid $cta-color;
+    }
+  }
+}
+
+table.button.cta:hover {
+  table {
+    td {
+      background: darken($cta-color, 10%);
+    }
+
+    a {
+      border: 0 solid darken($cta-color, 10%);
     }
   }
 }
